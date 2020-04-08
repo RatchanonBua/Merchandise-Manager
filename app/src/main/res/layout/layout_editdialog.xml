@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/name_dialog"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:layout_marginTop="10dp"
+        android:gravity="bottom"
+        android:paddingStart="20dp"
+        android:text="Name"
+        android:textAlignment="gravity"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editdialog_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:ems="10"
+        android:hint="Merchandise Name"
+        android:inputType="textPersonName" />
+
+    <TextView
+        android:id="@+id/price_dialog"
+        android:layout_width="match_parent"
+        android:layout_height="35dp"
+        android:gravity="bottom"
+        android:paddingStart="20dp"
+        android:text="Price"
+        android:textAlignment="gravity"
+        android:textColor="#000000"
+        android:textSize="18sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editdialog_price"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:ems="10"
+        android:hint="Merchandise Price"
+        android:inputType="numberDecimal" />
+
+</LinearLayout>
